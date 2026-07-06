@@ -8,58 +8,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1><a href="layout.html">Layout</a></h1>
-    </header>
-    <div class="container">
-        <h1>Resposive Grid</h1>
-        <p>Simple 12 columns grid system.</p>
-        <div class="row red white-text">
-            <div class="col s1 blue">01</div>
-            <div class="col s1 red">02</div>
-            <div class="col s1 green black-text">03</div>
-            <div class="col s1 yellow black-text">04</div>
-            <div class="col s1 brown">05</div>
-            <div class="col s1 purple">06</div>
-            <div class="col s1 pink">07</div>
-            <div class="col s1 light-blue">08</div>
-            <div class="col s1 blue lighten-5 black-text">09</div>
-            <div class="col s1 black">10</div>
-            <div class="col s1 green lighten-4 black-text">11</div>
-            <div class="col s1 blue lighten-3 black-text">12</div>
-        </div>
-
-        <p>Adjusting column widths</p>
-        <div class="row red white-text">
-            <div class="col s6 blue">01</div>
-            <div class="col s6 red">02</div>
-            <div class="col s3 green black-text">03</div>
-            <div class="col s3 yellow black-text">04</div>
-            <div class="col s3 brown">05</div>
-            <div class="col s3 purple">06</div>
-            <div class="col s4 pink">07</div>
-            <div class="col s4 light-blue">08</div>
-            <div class="col s4 blue lighten-5 black-text">09</div>
-            <div class="col s4 black">10</div>
-            <div class="col s4 green lighten-4 black-text">11</div>
-            <div class="col s4 blue lighten-3 black-text">12</div>
-        </div>
-
-        <p></p>
-        <div class="row red white-text">
-            <div class="col s12 blue">01</div>
-            <div class="col s6 red">02</div>
-            <div class="col s3 green black-text">03</div>
-            <div class="col s3 yellow black-text">04</div>
-            <div class="col s3 brown">05</div>
-            <div class="col s3 purple">06</div>
-            <div class="col s4 pink">07</div>
-            <div class="col s4 light-blue">08</div>
-            <div class="col s4 blue lighten-5 black-text">09</div>
-            <div class="col s4 black">10</div>
-            <div class="col s4 green lighten-4 black-text">11</div>
-            <div class="col s4 blue lighten-3 black-text">12</div>
-        </div>
-    </div>
+    
 </body>
+
+<!-- JS -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slider(
+            {
+                height: 400
+            }
+        );
+    });
+</script>
 </html>
