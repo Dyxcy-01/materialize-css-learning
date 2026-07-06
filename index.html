@@ -14,10 +14,39 @@
                 <li><img src="images/table-setting.jpg" alt="" class="responsive-img"></li>
                 <li><img src="images/toast-dinner.jpg" alt="" class="responsive-img"></li>
                 <li><img src="images/toast-dinner.jpg" alt="" class="responsive-img"></li>
-                <li><img src="images/wine-glass.jpg" alt=""></li>
+                <li><img src="images/wine-glass.jpg" alt="" class="responsive-img"></li>
             </ul>
         </div>
     </header>
+
+    <main class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>head1</th>
+                    <th>head2</th>
+                    <th>head3</th>
+                    <th>head4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>row</td>
+                    <td>row</td>
+                    <td>row</td>
+                    <td>row</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+        <form action="">
+
+        </form>
+    </main>
 </body>
 
 <!-- JS -->
@@ -29,7 +58,10 @@
     $(document).ready(function(){
         $('.slider').slider(
             {
-                height: 400
+                height: 400,
+                indicators: false,
+                interval: 2000, //Defines how long it stays
+                duration:5000 //Defines how long content fades in and out
             }
         );
     });
