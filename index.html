@@ -9,6 +9,30 @@
 </head>
 
 <body>
+    <header>
+        <nav class="orange darken-4">
+            <div class="container">
+                <a href="" class="brand-logo">VidOne</a>
+                <a href="#mobile-sidenav" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="home">home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Contact Us">Contact Us</a></li>
+                    <li><a href="Services">Services</a></li>
+                    <li><a href="FAQs">FAQs</a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-sidenav">
+                    <li><a href="home">home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Contact Us">Contact Us</a></li>
+                    <li><a href="Services">Services</a></li>
+                    <li><a href="FAQs">FAQs</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container">
             <h1>Collapsibles</h1>
@@ -74,6 +98,7 @@
         $('.modal').modal();
 
         $('.collapsible').collapsible();
+        $('.sidenav').sidenav();
     });
     
 </script>
